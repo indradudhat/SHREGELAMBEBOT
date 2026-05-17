@@ -9,7 +9,7 @@ app = Flask(__name__)
 # Keys - Environment Variables થી
 # ============================
 CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY")
-META_ACCESS_TOKEN = os.environ.get("IGAAONFjtqWB9BZAFpVQmMydzBjZAF9UMFJDTmVCZA1JfNm8wSjVoR0gzbzNSVVVVTG1TOW5WVjM4SEJ2LXJvTTJQUjh1RmJhQzJMVmlsWnV2aDEyWkJKakotY1dCTUV0dnBkWXJKTzlFc19NTHVGNWtnQTBrZA2l2UnZA5S3VjYmlWTQZDZD")
+META_ACCESS_TOKEN = os.environ.get("IGAAONFjtqWB9BZAFpLa1J5RVpVR0RqcDdyVVdHTEpKNENGS05iQTMwVEF4dkZAkMVZATYy1UUnRPN1hpRFp1YmU1YlBGNjJjaFo4X3hqN1ZAjUVVtQm9HZAHhpQnpyWWFIVU5nX1lpNEhXWWtoSnZADVjBrU3VnbTZAMcFh6QTVDQWQ5OAZDZD")
 VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "tulsimalavbot2024")
 
 client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
